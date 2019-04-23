@@ -1,0 +1,181 @@
+ /* pour accueil*/
+
+  html,
+body,
+.view {
+  height: 100%;
+}
+
+@media (max-width: 740px) {
+  html,
+  body,
+  .view {
+    height: 1000px;
+  }
+}
+@media (min-width: 800px) and (max-width: 850px) {
+  html,
+  body,
+  .view {
+    height: 600px;
+  }
+}
+
+.btn .fa {
+  margin-left: 3px;
+}
+
+.top-nav-collapse {
+  background-color: rgba(0,0,0,0.88); !important;
+}
+
+.navbar:not(.top-nav-collapse) {
+  background: transparent !important;
+}
+
+@media (max-width: 991px) {
+  .navbar:not(.top-nav-collapse) {
+    background: #424f95 !important;
+  }
+}
+
+.btn-white {
+  color: black !important;
+}
+
+h6 {
+  line-height: 1.7;
+}
+
+/*.rgba-gradient {
+  background: -moz-linear-gradient(45deg, rgba(42, 27, 161, 0.7), rgba(29, 210, 177, 0.7) 100%);
+  background: -webkit-linear-gradient(45deg, rgba(42, 27, 161, 0.7), rgba(29, 210, 177, 0.7) 100%);
+  background: -webkit-gradient(linear, 45deg, from(rgba(42, 27, 161, 0.7)), to(rgba(29, 210, 177, 0.7)));
+  background: -o-linear-gradient(45deg, rgba(42, 27, 161, 0.7), rgba(29, 210, 177, 0.7) 100%);
+  background: linear-gradient(to 45deg, rgba(42, 27, 161, 0.7), rgba(29, 210, 177, 0.7) 100%);
+}*/
+/* end accueil */
+
+
+/*pour chat */
+.card.chat-room .members-panel-1,
+.card.chat-room .chat-1 {
+position: relative;
+overflow-y: scroll; }
+
+.card.chat-room .members-panel-1 {
+height: 570px; }
+
+.card.chat-room .chat-1 {
+height: 495px; }
+
+.card.chat-room .friend-list li {
+border-bottom: 1px solid #e0e0e0; }
+.card.chat-room .friend-list li:last-of-type {
+border-bottom: none; }
+
+.scrollbar-light-blue::-webkit-scrollbar-track {
+-webkit-box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.1);
+background-color: #F5F5F5;
+border-radius: 10px; }
+
+.scrollbar-light-blue::-webkit-scrollbar {
+width: 12px;
+background-color: #F5F5F5; }
+
+.scrollbar-light-blue::-webkit-scrollbar-thumb {
+border-radius: 10px;
+-webkit-box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.1);
+background-color: #82B1FF; }
+
+.rare-wind-gradient {
+background-image: -webkit-gradient(linear, left bottom, left top, from(#a8edea), to(#fed6e3));
+background-image: -webkit-linear-gradient(bottom, #a8edea 0%, #fed6e3 100%);
+background-image: linear-gradient(to top, #a8edea 0%, #fed6e3 100%); }
+/* end chat */
+
+.badge{
+  background-color: orange !important;
+  color: #fff;
+  border-radius: 5px;
+  padding: 5px;
+}
+.chercher {
+  padding-right: 30px;
+  padding-left: 30px;
+  padding-top: 2px;
+  padding-bottom: 2px;
+  background-color: orange;
+  border-width: 2px;
+  border-style: solid;
+  border-color: orange;
+  color: #fff;
+  font-weight: bold;
+  border-radius: 5px;
+}
+
+.couleur {
+  background-color: rgba(4,4,4,0.4);
+}
+
+/* formulaire inscription */
+
+.formulaire_inscription {
+    border-width: 7px;
+    border-style: solid;
+    border-color: orange;
+    margin-top: 50px;
+    border-radius: 5px;
+    padding: 25px;
+   
+}
+
+/* Page annonce */
+
+.place {
+  background-color: orange;
+  border-top-left-radius: 15px;
+  border-bottom-right-radius:15px;
+  color: #fff;
+  font-weight: bold;
+  font-size: 15px;
+  border-color: orange;
+  border-style: solid;
+  padding-top: 7px;
+  padding-bottom: 7px;
+  padding-right: 9px;
+  padding-left: 9px;
+  margin-top: 25px;
+  margin-bottom: 25px;
+
+}
+
+.tailles {
+  font-size: 15px;
+}
+
+.liker {
+  background-color: #fff;
+  border-top-left-radius: 10px ;
+  border-bottom-right-radius:10px;
+  color: orange;
+  font-weight: bold;
+  font-size: 20px;
+  border-color: orange;
+  border-style: solid;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  padding-right: 9px;
+  padding-left: 9px;
+  }
+
+.espace {
+  font-weight: bold;
+  font-size: 20px;
+}
+.homeFull{
+  background-color: blue;
+}
+body{
+  background: url(../img/c.jpg) no-repeat fixed ;background-size: cover;
+}
